@@ -24,7 +24,7 @@ fun StateTextTextFieldExample() {
             value = textState,
             onValueChange = { textState = it }
         )
-        Text("TextField: $textState")
+
 
     }
 }
